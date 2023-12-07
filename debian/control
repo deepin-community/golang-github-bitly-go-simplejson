@@ -1,15 +1,23 @@
-Source: template-repository
-Section: unknown
+Source: golang-github-bitly-go-simplejson
+Section: devel
 Priority: optional
-Maintainer: Tsic404 <liuheng@deepin.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Maintainer: pkg-go <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Nobuhiro Iwamatsu <iwamatsu@debian.org>, Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper-compat (= 12),
+	dh-golang,
+	golang-any,
+	golang-github-bmizerany-assert-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/bitly/go-simplejson
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-bitly-go-simplejson
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-bitly-go-simplejson.git
+XS-Go-Import-Path: github.com/bitly/go-simplejson
 
-Package: template-repository
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Package: golang-github-bitly-go-simplejson-dev
+Architecture: all
+Depends: ${misc:Depends}, golang-github-bmizerany-assert-dev
+Description: Golang library to interact with arbitrary JSON
+ This is easily the library managing with JSON format.
+ This can be done easily the acquisition of reading and the value of the JSON
+ format. And this is add or remove key, and provides conversion to byte type
+ of changed data.

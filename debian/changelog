@@ -1,5 +1,51 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-bitly-go-simplejson (0.5.0-6) unstable; urgency=medium
 
-  * Initial release
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository, Repository-Browse.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 01 Jul 2022 00:25:38 +0100
+
+golang-github-bitly-go-simplejson (0.5.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * Switch to XS-Go-Import-Path
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Thu, 08 Feb 2018 09:31:47 +0100
+
+golang-github-bitly-go-simplejson (0.5.0-4) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Team upload.
+  * Remove Built-Using from arch:all -dev package
+
+ -- Konstantinos Margaritis <markos@debian.org>  Wed, 09 Aug 2017 01:02:19 -0400
+
+golang-github-bitly-go-simplejson (0.5.0-3) unstable; urgency=medium
+
+  * Replace golang-go with golang-any in Build-Depends
+
+ -- Konstantinos Margaritis <markos@debian.org>  Tue, 08 Aug 2017 17:11:18 +0300
+
+golang-github-bitly-go-simplejson (0.5.0-2) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Team upload.
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Nobuhiro Iwamatsu ]
+  * Update Tim's mail address.
+  * Update Standards-Version to 3.9.8.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Sat, 15 Oct 2016 08:43:46 +0900
+
+golang-github-bitly-go-simplejson (0.5.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #816007)
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Fri, 26 Feb 2016 01:47:36 +0900
